@@ -1,0 +1,8 @@
+This is a test of squash rebase visualization (whether after squashing 
+ALL commits in a branch and merging it into another, the newest commit 
+for that other branch will show the diff, or will show the total commit 
+history (i.e. every line of code).
+
+2nd commit.
+
+3rd commit.
