@@ -1,0 +1,3 @@
+[submodule "gitTut"]
+	path = gitTut
+	url = https://github.com/jaib1/gitTut
