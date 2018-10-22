@@ -1,3 +1,6 @@
 [submodule "gitTut"]
 	path = gitTut
 	url = https://github.com/jaib1/gitTut
+[submodule "gitInit"]
+	path = gitInit
+	url = C:/Users/Jai/testRepo/gitInit
