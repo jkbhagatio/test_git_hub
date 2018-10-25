@@ -4,3 +4,6 @@
 [submodule "gitInit"]
 	path = gitInit
 	url = C:/Users/Jai/testRepo/gitInit
+[submodule "gitInit2"]
+	path = gitInit2
+	url = C:/Users/Jai/testRepo/gitInit2
