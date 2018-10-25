@@ -7,3 +7,6 @@
 [submodule "gitInit2"]
 	path = gitInit2
 	url = C:/Users/Jai/testRepo/gitInit2
+[submodule "J_Clust"]
+	path = J_Clust
+	url = https://github.com/jaib1/J_Clust
