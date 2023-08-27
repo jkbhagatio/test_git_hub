@@ -1,10 +1,12 @@
 name: squash_merge_to_prod
 on:
-  push:
+  pull_request:
     branches: [ main ]
+    types: [ closed ]
 jobs:
   squash_merge_to_prod:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true  # only run if PR merged (subset of 'closed')
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -27,3 +29,4 @@ jobs:
 # a commit
 # feature commit 1
 # feature commit 2
+# feature commit 3
