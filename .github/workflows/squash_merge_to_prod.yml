@@ -22,3 +22,8 @@ jobs:
         git merge --squash main
         git commit -m "$COMMIT_MSG"
         git push origin prod
+
+# a commit
+# a commit
+# feature commit 1
+# feature commit 2
