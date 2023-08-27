@@ -21,7 +21,7 @@ jobs:
         git checkout prod
         # Get the latest commit message from the 'main' branch
         COMMIT_MSG=$(git log main -1 --pretty=format:%s)
-        git merge --squash main
+        git merge --squash -X theirs main
         git commit -m "$COMMIT_MSG"
         git push origin prod
 
